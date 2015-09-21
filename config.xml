@@ -20,6 +20,11 @@
     <preference name="android-targetSdkVersion" value="15" />
     <preference name="DisallowOverscroll" value="true" />
 
-    <icon src="icon.png" />
+    <icon src="img/favicon/apple-icon-57x57.png" gap:platform="ios" width="57" height="57" />
+    <icon src="img/favicon/apple-icon-72x72.png" gap:platform="ios" width="72" height="72" />
+    <icon src="img/favicon/apple-icon-114x114.png" gap:platform="ios" width="114" height="114" />
+    <icon src="img/favicon/apple-icon-120x120.png" gap:platform="ios" width="120" height="120" />
+    <icon src="img/favicon/apple-icon-144x144.png" gap:platform="ios" width="144" height="144" />
+    <icon src="img/favicon/apple-icon-152x152.png" gap:platform="ios" width="152" height="152" />
 
 </widget>
