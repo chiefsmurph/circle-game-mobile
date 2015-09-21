@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.circlegames.circlebattle"
+        versionCode = "10"
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Circle Battle</name>
+
+    <description>
+        The old-school multiplayer game featuring your favorite shape...the circle!
+    </description>
+
+    <author href="http://github.com/chiefsmurph" email="chiefsmurph@gmail.com">
+        John Murphy
+    </author>
+
+    <preference name="android-targetSdkVersion" value="15" />
+
+</widget>
