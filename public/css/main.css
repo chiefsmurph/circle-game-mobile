@@ -294,6 +294,7 @@ button:focus, input[type='button']:focus {outline:0;}
   /*box-shadow: 4px 4px 20px rgba(255,255,255,0.3);*/
   cursor: default;
   z-index: 1;
+  display: none !important;
 }
 #chatPanel #chatArea {
   width: 100%;
@@ -332,7 +333,7 @@ button:focus, input[type='button']:focus {outline:0;}
   cursor: default;
   border-top: 1px solid black;
   z-index: 1;
-  display: none;
+  display: none !important;
 }
 #usersAndColors > div {
   display: none;
