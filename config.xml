@@ -19,5 +19,7 @@
 
     <preference name="android-targetSdkVersion" value="15" />
     <preference name="DisallowOverscroll" value="true" />
-    
+
+    <icon src="icon.png" />
+
 </widget>
