@@ -656,7 +656,7 @@ $(function() {
 
     });
 
-  }, 200);
+  }, 800);
 
   $("#username").val(docCookies.getItem('pastusername'));
 
