@@ -89,7 +89,7 @@ var handleUsernameSubmit = function(cb) {   //void
   if (validateText(3,8,'#username')) {
       // set username
       username = $('#username').val();
-      docCookies.setItem('pastusername', username);
+      window.localStorage.setItem("pastusername", username);
       console.log('setting username to ' + username )
       $('#loginScreen').hide();
       if (cb) cb();
@@ -658,7 +658,7 @@ $(function() {
 
   }, 800);
 
-  $("#username").val(docCookies.getItem('pastusername'));
+  $("#username").val(window.localStorage.getItem("pastusername"));
 
   $('#closeHS').click(function() {
     toggleHighs();
