@@ -18,5 +18,6 @@
     </author>
 
     <preference name="android-targetSdkVersion" value="15" />
-
+    <preference name="DisallowOverscroll" value="true" />
+    
 </widget>
