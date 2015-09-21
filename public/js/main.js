@@ -137,8 +137,6 @@ var chooseRoom = function(roomToGo) {
       socket.emit('joinRoom', {room: roomToGo, uid: username});
       $('#curRoom').text(roomToGo);
 
-
-      setStatus('Waiting for other players');
       $('#rulesPanel').removeClass('hider');
       $('#backRoomButton').prop('disabled', false);
 
@@ -395,8 +393,10 @@ socket.on('playerCount', function(data) {
     if (activeGame && numPlayers === 1) {
       activeGame = false;
       backToWaiting();
-    } else if (!activeGame && numPlayers > 2) {
+    } else if (!activeGame && numPlayers > 1) {
       setStatus('Waiting for game to start');
+    } else if (!activeGame && numPlayers === 1) {
+      setStatus('Waiting for others to join');
     }
 
 });
