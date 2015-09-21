@@ -2,7 +2,8 @@ html, body {
   background-color: rgba(100,0,0,0.5);
   background-image: url('../img/back-pattern.png');
   text-align: center;
-  height: 110%;
+  height: 100%;
+  overflow: hidden;
 }
 * {
   -moz-box-sizing: border-box;
